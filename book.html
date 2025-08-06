@@ -45,6 +45,74 @@
 
     <main>
 
+         <div class="container-fluid py-2 px-5">
+
+            <div class="row align-items-start pb-3">
+                <div class="col">
+                    <h2>Catalogo Libri</h2> 
+                </div>
+            </div>
+
+            <form class="row g-3">
+
+                <div class="col-6">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore" id="nome">
+                </div>
+
+                <div class="col-6">
+                    <label for="cognonome" class="form-label">Cognome</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore" id="cognome">
+                </div>
+
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci il titolo del libro">
+                    <div class="form-text" id="basic-addon4">Titolo versione italiana</div>
+                </div>
+                
+
+                <div class="col-sm-12 col-md-4">
+                    <label for="inputgenere" class="form-label">Genere</label>
+                    <select id="inputgenere" class="form-select">
+                    <option selected>Scegli il Genere</option>
+                    <option>Fantasy</option>
+                    <option>Romanzo</option>
+                    <option>Fantascienza</option>
+                    <option>Cucina</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <label for="anno" class="form-label">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno" id="anno">
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <label for="ISBN" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" id="ISBN">
+                </div>
+
+
+                <hr>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Note</label>
+                    <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Disponibile anche in digitale
+                    </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                </div>
+            </form>
 
 
     </main>
